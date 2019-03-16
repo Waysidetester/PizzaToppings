@@ -8,6 +8,6 @@ namespace FavoriteToppings
 {
     class PizzaToppigns
     {
-        public List<string> Toppings;
+        public List<string> Toppings { get; set; }
     }
 }
